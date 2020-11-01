@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg-img{
+	background-image: url('images/office desk.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+/* nav bar */
+.nav{
+	width: 100%;
+	height: 120px;
+	background-color: rgba(255, 255, 255, .05);
+}
+.left-logo{
+	width: 25%;
+	line-height: 120px;
+	float: left;
+	/* background-color: #ff0; */
+}
+.left-logo p{
+	padding-left: 70px;
+	color: lightpink;
+	font-size: 23px;
+	/* font-weight: bold; */
+	font-family: 'Montserrat', sans-serif;
+}
+.right-menu{
+	width: 70%;
+	height: 120px;
+	float: right;
+	/* background-color: #f00; */
+}
+.right-menu ul{
+	margin-left: 250px;
+}
+.right-menu ul li{
+	color: #fff;
+	list-style-type: none;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 120px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+#firstitem{
+	color: skyblue;
+}
+.right-menu ul li:hover{
+	color: skyblue;
+	cursor: pointer;
+}
+/* end nav bar */
+
+/* content */
+.content{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.content h4{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.content h1{
+	font-size: 62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	background-image: linear-gradient(to right, blue, purple, pink);
+	background-clip: text;
+	color: transparent;
+	margin: 14px 0;
+}
+.content p{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+       /* buttons */
+#buttonone{
+	background-color: #fff;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+	transition: all 1s ease;
+}
+#buttontwo{
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	border: 3px solid white;
+	transition: all 1s ease;
+}
+        /* buttons end */
+/* end content */
+
+         /* some extra styling */
+#buttonone:hover{
+	background-color: blue;
+	border-color: blue;
+	color: white;
+}
+#buttontwo:hover{
+	background-color: purple;
+	border-color: purple;
+}
